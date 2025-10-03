@@ -1,0 +1,28 @@
+# Бинарные файлы
+bin/
+*.exe
+*.o
+*.obj
+
+# База данных и логи
+*.db
+*.log
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Библиотеки MySQL
+lib/mysql/
+
+# VCPKG зависимости
+vcpkg/
+
+echo "# Большие медиа файлы" >> .gitignore
+echo "*.mp4" >> .gitignore
+echo "*.avi" >> .gitignore
+echo "*.mov" >> .gitignore
+# ������� ����� �����
+*.mp4
+*.avi
+*.mov

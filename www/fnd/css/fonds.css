@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Manrope";
+  src:
+    local("Manrope"), 
+    url("../shrifti/Bold.woff2") format("woff2"),
+    url("../shrifti/Bold.woff") format("woff"),
+    url("../shrifti/Bold.eot") format("eot");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src:
+    local("Manrope"), 
+    url("../shrifti/ExtraBold.woff2") format("woff2"),
+    url("../shrifti/ExtraBold.woff") format("woff"),
+    url("../shrifti/ExtraBold.eot") format("eot");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src:
+    local("Manrope"), 
+    url("../shrifti/ExtraLight.woff2") format("woff2"),
+    url("../shrifti/ExtraLight.woff") format("woff"),
+    url("../shrifti/ExtraLight.eot") format("eot");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src:
+    local("Manrope"), 
+    url("../shrifti/Medium.woff2") format("woff2"),
+    url("../shrifti/Medium.woff") format("woff"),
+    url("../shrifti/Medium.eot") format("eot");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src:
+    local("Manrope"), 
+    url("../shrifti/SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

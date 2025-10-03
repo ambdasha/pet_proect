@@ -1,0 +1,11 @@
+CREATE DATABASE db;
+USE db;
+
+CREATE TABLE applications(
+    id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    c_name VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    serv_type VARCHAR(30) NOT NULL,
+    c_message VARCHAR(150),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
